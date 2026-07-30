@@ -25,7 +25,8 @@ The dashboard analyzes the Netflix Movies and TV Shows dataset using Python, Pan
 - Pandas
 - Plotly
 - Streamlit
-
+## Deployed link
+https://dataviz-exercises-manish-krwmqgghwwepxf9fooa6rd.streamlit.app/
 ## Dataset
 
 Netflix Movies and TV Shows Dataset from Kaggle.
