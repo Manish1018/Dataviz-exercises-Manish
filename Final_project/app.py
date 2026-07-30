@@ -23,7 +23,13 @@ st.write("This dashboard analyzes Netflix Movies and TV Shows using interactive 
 # ----------------------------
 # Load Dataset
 # ----------------------------
-df = pd.read_csv("netflix_titles_cleaned_fixed.csv")
+from pathlib import Path
+import pandas as pd
+
+BASE_DIR = Path(__file__).parent
+CSV_FILE = BASE_DIR / "netflix_titles_cleaned_fixed.csv"
+
+df = pd.read_csv(CSV_FILE)
 
 # ----------------------------
 # Show Dataset
